@@ -27,4 +27,4 @@ spec:
             containerPort: {{ .Values.backend.port }}
         env:
         - name: SERVER_ADDR
-          value: :{{ .Values.backend.port }}
+          value: :{{ .Values.backend.host }}
